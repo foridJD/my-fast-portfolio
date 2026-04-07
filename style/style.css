@@ -236,3 +236,67 @@
     /* margin-bottom: 20px; */
     text-align: start;
 }
+
+/* my work section end */
+
+
+#my-resume{
+max-width: 1140px;
+margin: auto;
+}
+.resume-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 7000;
+    font-size: 35px;
+    color: var(--dark1);
+    margin: 130px 0;
+}
+.resume-content-wraper{
+    display: flex;
+    justify-content: space-between;
+}
+.resume-head{
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--dark2);
+    margin-bottom: 30px;
+}
+.resume-head-title{
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--dark2);
+    margin: 20px 0;
+}
+.resume-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--dark3);
+}
+.resume-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--dark3);
+    margin: 20px 0;
+}
+.resume-button{
+    max-width: 200px;
+     margin: 50px auto;
+}
+.resume-button a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: var(--contentbg);
+    color: var(--button);
+    border: 1px solid var(--button);
+    padding: 15px 30px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.resume-button a:hover{
+    background-color: var(--button);
+    color: var(--contentbg);
+    transition: 0.5s;
+}
